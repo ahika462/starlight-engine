@@ -1,0 +1,218 @@
+{
+	"animations": [
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "idle",
+			"offset": [
+				-5,
+				0
+			],
+			"prefix": "BF idle dance"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singLEFT",
+			"offset": [
+				5,
+				-6
+			],
+			"prefix": "BF NOTE LEFT0"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singDOWN",
+			"offset": [
+				-20,
+				-51
+			],
+			"prefix": "BF NOTE DOWN0"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singUP",
+			"offset": [
+				-46,
+				27
+			],
+			"prefix": "BF NOTE UP0"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singRIGHT",
+			"offset": [
+				-48,
+				-7
+			],
+			"prefix": "BF NOTE RIGHT0"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singLEFTmiss",
+			"offset": [
+				7,
+				19
+			],
+			"prefix": "BF NOTE LEFT MISS"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singDOWNmiss",
+			"offset": [
+				-15,
+				-19
+			],
+			"prefix": "BF NOTE DOWN MISS"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singUPmiss",
+			"offset": [
+				-46,
+				27
+			],
+			"prefix": "BF NOTE UP MISS"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singRIGHTmiss",
+			"offset": [
+				-44,
+				22
+			],
+			"prefix": "BF NOTE RIGHT MISS"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "hey",
+			"offset": [
+				-3,
+				5
+			],
+			"prefix": "BF HEY"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "hurt",
+			"offset": [
+				14,
+				18
+			],
+			"prefix": "BF hit"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": true,
+			"name": "scared",
+			"offset": [
+				-4,
+				0
+			],
+			"prefix": "BF idle shaking"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "dodge",
+			"offset": [
+				-10,
+				-16
+			],
+			"prefix": "boyfriend dodge"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "attack",
+			"offset": [
+				294,
+				267
+			],
+			"prefix": "boyfriend attack"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "pre-attack",
+			"offset": [
+				-40,
+				-40
+			],
+			"prefix": "bf pre attack"
+		}
+	],
+	"antialiasing": true,
+	"assetPath": "characters/BOYFRIEND",
+	"flipX": true,
+	"health": {
+		"color": "#31B0D1",
+		"icon": "bf"
+	},
+	"offsets": {
+		"camera": [
+			0,
+			0
+		],
+		"self": [
+			0,
+			350
+		]
+	},
+	"scale": 1,
+	"singDuration": 4
+}

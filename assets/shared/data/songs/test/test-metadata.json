@@ -1,0 +1,249 @@
+{
+	"artist": "Unknown",
+	"bpm": 150,
+	"characters": {
+		"opponent": "bf-pixel-opponent",
+		"player": "bf",
+		"spectator": null
+	},
+	"charter": "Unknown",
+	"events": [
+		{
+			"k": "Child Porn",
+			"t": 0,
+			"v": {
+				"biden": "8"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 0,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 3200,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 6400,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 9600,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 12800,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 14400,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 16000,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 17600,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 19200,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 20800,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 22400,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 24000,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 25600,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 28800,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 32000,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 35200,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 38400,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 41600,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 44800,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 48000,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 51200,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 57600,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 64000,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 70400,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 76800,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 80000,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 83200,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 86400,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 89600,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 92800,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 96000,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 99200,
+			"v": {
+				"target": "Player"
+			}
+		}
+	],
+	"name": "Test",
+	"stage": null,
+	"vocals": {
+		"enabled": true,
+		"separated": false
+	}
+}

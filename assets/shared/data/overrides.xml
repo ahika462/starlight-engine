@@ -1,0 +1,3 @@
+<xml>
+	<overrideClass from="play.HealthIcon" to="HealthIconTest"/>
+</xml>

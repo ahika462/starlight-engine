@@ -1,0 +1,12 @@
+{
+	"library": null,
+	"defaultZoom": 0.6,
+
+	"characters": {
+		"player": [1190, 190],
+		"opponent": [350, 180],
+		"spectator": [380, 110]
+	},
+
+	"props": []
+}

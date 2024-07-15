@@ -1,0 +1,75 @@
+{
+	"animations": [
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "hey",
+			"offset": [
+				-42,
+				128
+			],
+			"prefix": "hey"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "cheer",
+			"offset": [
+				-42,
+				128
+			],
+			"prefix": "hey"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "danceLeft",
+			"offset": [
+				0,
+				0
+			],
+			"prefix": "left0"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "danceRight",
+			"offset": [
+				-5,
+				0
+			],
+			"prefix": "right0"
+		}
+	],
+	"antialiasing": true,
+	"assetPath": "newmortir/bubil",
+	"flipX": false,
+	"health": {
+		"color": "#A1A1A1",
+		"icon": "bf"
+	},
+	"offsets": {
+		"camera": [
+			-170,
+			30
+		],
+		"self": [
+			460,
+			0
+		]
+	},
+	"scale": 1,
+	"singDuration": 6.1
+}

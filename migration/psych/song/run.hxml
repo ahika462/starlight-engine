@@ -1,0 +1,4 @@
+--main Main
+--library tjson
+--define no-deprecation-warnings
+--hl main.hl

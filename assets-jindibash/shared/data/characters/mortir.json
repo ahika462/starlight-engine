@@ -1,0 +1,179 @@
+{
+	"animations": [
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "idle",
+			"offset": [
+				70,
+				130
+			],
+			"prefix": "idle"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singDOWN",
+			"offset": [
+				53,
+				44
+			],
+			"prefix": "down0"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singLEFT",
+			"offset": [
+				147,
+				160
+			],
+			"prefix": "left0"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singRIGHT",
+			"offset": [
+				24,
+				135
+			],
+			"prefix": "right0"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singUP",
+			"offset": [
+				104,
+				226
+			],
+			"prefix": "up0"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singLEFT-alt",
+			"offset": [
+				186,
+				136
+			],
+			"prefix": "left alt"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singRIGHT-alt",
+			"offset": [
+				150,
+				120
+			],
+			"prefix": "right alt"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singUP-alt",
+			"offset": [
+				66,
+				234
+			],
+			"prefix": "up alt"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singDOWN-alt",
+			"offset": [
+				90,
+				11
+			],
+			"prefix": "down alt"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "cough",
+			"offset": [
+				61,
+				84
+			],
+			"prefix": "cough"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "hey",
+			"offset": [
+				61,
+				84
+			],
+			"prefix": "cough"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "anim",
+			"offset": [
+				114,
+				229
+			],
+			"prefix": "anim"
+		}
+	],
+	"antialiasing": true,
+	"assetPath": "characters/mortir",
+	"flipX": false,
+	"health": {
+		"color": "#A1A1A1",
+		"icon": "mortir"
+	},
+	"offsets": {
+		"camera": [
+			50,
+			-280
+		],
+		"self": [
+			0,
+			0
+		]
+	},
+	"scale": 1,
+	"singDuration": 4
+}

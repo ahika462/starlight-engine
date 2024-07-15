@@ -1,0 +1,22 @@
+{
+	"description": "Move camera to specific character",
+	"values": [
+		{
+			"name": "Character",
+			"id": "target",
+			"options": [
+				"Player",
+				"Opponent",
+				"Spectator"
+			]
+		},
+		{
+			"name": "Duration",
+			"id": "duration"
+		},
+		{
+			"name": "Easing",
+			"id": "easing"
+		}
+	]
+}

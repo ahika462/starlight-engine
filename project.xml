@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<!-- GAME OPTIONS -->
+
+	<define name="FEATURE_CRASH_HANDLER"/>
+	<define name="FEATURE_MODDING"/>
+	<define name="FEATURE_SCRIPTING"/>
+
+	<!-- <define name="DEBUG_CHARACTER_EDITOR"/> -->
+
+	<!-- APP OPTIONS -->
+
+	<set name="app.title"   value="Friday Night Funkin': Star Rail"/> <!-- Window title -->
+	<set name="app.package" value="com.ahika462.fnfstarrail"/>        <!-- App package -->
+	<set name="app.version" value="0.1.0"/>                           <!-- Engine version -->
+	<set name="app.company" value="ahika462"/>                        <!-- Creator -->
+
+	<!-- EXPORT OPTIONS -->
+
+	<set name="export.directory"  value="export"/> <!-- Compilation directory -->
+	<set name="export.executable" value="Funkin"/> <!-- Executable file name -->
+
+	<!-- ASSETS OPTIONS -->
+
+	<set name="assets.redirection" value="assets"/> <!-- Assets directory -->
+
+	<set name="assets.exclude"     value="*.ogg" if="web"/>
+	<set name="assets.exclude"     value="*.mp3" unless="web"/>
+
+	<!-- ASSETS PATHS -->
+
+	<assets path="${assets.redirection}/scripts"  rename="assets/scripts"/>                          <!-- Scripts -->
+	<assets path="${assets.redirection}/shared" rename="assets/shared" exclude="${assets.exclude}"/> <!-- Shared assets -->
+	<assets path="${assets.redirection}/songs"  rename="assets/songs"  exclude="${assets.exclude}"/> <!-- Songs -->
+
+	<!-- HAXELIBS -->
+
+	<haxelib name="lime"/>                <!-- Lime backend for OpenFL -->
+	<haxelib name="openfl"/>              <!-- OpenFL backend for Flixel -->
+	<haxelib name="flixel"/>              <!-- Flixel -->
+	<haxelib name="flixel-addons"/>       <!-- Additional stuff for Flixel -->
+	<haxelib name="flixel-ui"/>           <!-- UI stuff for Flixel -->
+	<haxelib name="flixel-text-input"/>   <!-- Better Flixel text input rendering -->
+
+	<haxelib name="tjson"/>               <!-- Anonimous type tolerant JSON parsing. Can be disabled -->
+
+	<section if="FEATURE_SCRIPTING">
+		<haxelib name="hscript-improved"/> <!-- Improved HScript. Can be disabled -->
+		<define name="hscriptPos"/>
+	</section>
+
+
+	<!-- HAXE DEFINITIONS -->
+
+	<haxedef name="FLX_NO_FOCUS_LOST_SCREEN"/>
+   <haxedef name="FLX_NO_DEBUG" unless="debug"/>
+
+	<section if="FEATURE_CRASH_HANDLER cpp">
+		<haxedef name="HXCPP_CHECK_POINTER"/>
+		<haxedef name="HXCPP_STACK_LINE"/>
+	</section>
+
+	<!-- ICONS -->
+
+	<icon path="art/icon16.png" size="16"/>
+	<icon path="art/icon32.png" size="32"/>
+	<icon path="art/icon64.png" size="64"/>
+	<icon path="art/iconOG.png"/>
+
+	<!-- INTERNAL-->
+
+	<set name="system.bits" value="32bit" if="32bit"/>
+	<set name="system.bits" value="64bit" unless="32bit"/>
+
+	<set name="build.type" value="debug"   if="debug"/>
+	<set name="build.type" value="release" if="release"/>
+
+	<meta title="${app.title}" package="${app.package}" version="${app.version}" company="${app.company}"/>
+	<app main="Main" file="${export.executable}"/>
+	<window width="1280" height="720" background="#000000"/>
+
+	<set name="SWF_VERSION" value="11.8"/>
+	<set name="BUILD_DIR"   value="${export.directory}/${build.type}/${system.bits}"/>
+
+	<source path="source"/>
+
+</project>

@@ -1,0 +1,7 @@
+{
+	"assetPath": "NOTE_assets",
+	"scale": 0.7,
+	"antialiasing": true,
+	"splashes": "noteSplashes",
+	"coverPrefix": "noteCover"
+}

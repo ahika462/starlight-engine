@@ -1,0 +1,12 @@
+
+gamepad controls {cm:2024-07-13}
+optimize note styles
+note kinds {cm:2024-07-14}
+note splashes
+remove double notes {cm:2024-07-14}
+
+strumline notes lighting at the ends of sustain notes
+overrides.xml
+move scripts to polymod
+animation frames preview
+character health color picker

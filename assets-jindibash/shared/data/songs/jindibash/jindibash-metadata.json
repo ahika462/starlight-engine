@@ -1,0 +1,277 @@
+{
+	"artist": "Unknown",
+	"bpm": 100,
+	"characters": {
+		"opponent": "mortir",
+		"player": "orderup-bf-inwork2",
+		"spectator": "bubilbg2"
+	},
+	"charter": "Unknown",
+	"events": [
+		{
+			"k": "Move Camera To Character",
+			"t": 0,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 2400,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 4800,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 7200,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 9600,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 12000,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 14400,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 19200,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 24000,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 28800,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 33600,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 38400,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 43200,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 48000,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 52800,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 57600,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 62400,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 67200,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 72000,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 76800,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Change BPM",
+			"t": 81600,
+			"v": {
+				"bpm": 200
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 81600,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 86400,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 91200,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 96000,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 100800,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 105600,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 110400,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Change BPM",
+			"t": 112800,
+			"v": {
+				"bpm": 100
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 120000,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 124800,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 129600,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 134400,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 139200,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 144000,
+			"v": {
+				"target": "Opponent"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 148800,
+			"v": {
+				"target": "Player"
+			}
+		},
+		{
+			"k": "Move Camera To Character",
+			"t": 153600,
+			"v": {
+				"target": "Opponent"
+			}
+		}
+	],
+	"name": "jindibash",
+	"stage": "newmortir",
+	"vocals": {
+		"enabled": true,
+		"separated": true
+	}
+}

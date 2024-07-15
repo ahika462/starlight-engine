@@ -1,0 +1,153 @@
+{
+	"animations": [
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "idle",
+			"offset": [
+				-17,
+				-293
+			],
+			"prefix": "idle"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singLEFT",
+			"offset": [
+				9,
+				-286
+			],
+			"prefix": "left0"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singRIGHT",
+			"offset": [
+				-52,
+				-291
+			],
+			"prefix": "right0"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singUP",
+			"offset": [
+				-55,
+				-219
+			],
+			"prefix": "up0"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singDOWN",
+			"offset": [
+				-25,
+				-347
+			],
+			"prefix": "down0"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singLEFTmiss",
+			"offset": [
+				1,
+				-287
+			],
+			"prefix": "left miss"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singDOWNmiss",
+			"offset": [
+				-16,
+				-338
+			],
+			"prefix": "down miss"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singUPmiss",
+			"offset": [
+				-49,
+				-220
+			],
+			"prefix": "up miss"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singRIGHTmiss",
+			"offset": [
+				-50,
+				-267
+			],
+			"prefix": "right miss"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "hey",
+			"offset": [
+				-40,
+				-290
+			],
+			"prefix": "hey"
+		}
+	],
+	"antialiasing": true,
+	"assetPath": "characters/orderboyINWORK2",
+	"flipX": true,
+	"health": {
+		"color": "#A1A1A1",
+		"icon": "bf"
+	},
+	"offsets": {
+		"camera": [
+			60,
+			310
+		],
+		"self": [
+			0,
+			-50
+		]
+	},
+	"scale": 1,
+	"singDuration": 6.1
+}

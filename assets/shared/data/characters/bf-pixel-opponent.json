@@ -1,0 +1,140 @@
+{
+	"animations": [
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "idle",
+			"offset": [
+				2,
+				0
+			],
+			"prefix": "BF IDLE"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singUPmiss",
+			"offset": [
+				0,
+				0
+			],
+			"prefix": "BF UP MISS"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singUP",
+			"offset": [
+				0,
+				0
+			],
+			"prefix": "BF UP NOTE"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singDOWN",
+			"offset": [
+				0,
+				0
+			],
+			"prefix": "BF DOWN NOTE"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singDOWNmiss",
+			"offset": [
+				0,
+				0
+			],
+			"prefix": "BF DOWN MISS"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singLEFT",
+			"offset": [
+				0,
+				0
+			],
+			"prefix": "BF RIGHT NOTE"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singRIGHTmiss",
+			"offset": [
+				0,
+				0
+			],
+			"prefix": "BF LEFT MISS"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singLEFTmiss",
+			"offset": [
+				0,
+				0
+			],
+			"prefix": "BF RIGHT MISS"
+		},
+		{
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"indices": [],
+			"looped": false,
+			"name": "singRIGHT",
+			"offset": [
+				0,
+				0
+			],
+			"prefix": "BF LEFT NOTE"
+		}
+	],
+	"antialiasing": false,
+	"assetPath": "characters/bfPixel",
+	"flipX": true,
+	"health": {
+		"color": "#7BD6F6",
+		"icon": "bf-pixel"
+	},
+	"offsets": {
+		"camera": [
+			50,
+			-160
+		],
+		"self": [
+			80,
+			480
+		]
+	},
+	"scale": 6.8,
+	"singDuration": 4
+}
