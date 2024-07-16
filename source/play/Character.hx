@@ -69,6 +69,7 @@ class Character extends OffsetSprite {
 
 		updateDance();
 		dance();
+		animation.finish();
 
 		return name = v;
 	}
@@ -85,12 +86,12 @@ class Character extends OffsetSprite {
 	public function dance() {
 		switch(danceType) {
 			case Idle:
-				playAnimation('idle$dancePostfix');
+				playAnimation('idle$dancePostfix', true);
 
 			case LeftRight:
 				danced = !danced;
 
-				playAnimation((danced ? 'danceRight' : 'danceLeft') + dancePostfix);
+				playAnimation((danced ? 'danceRight' : 'danceLeft') + dancePostfix, true);
 		}
 	}
 

@@ -96,6 +96,8 @@ class PlayState extends MusicBeatState {
 	override function create() {
 		instance = this;
 
+		persistentUpdate = true;
+
 		cameraStage = new BoppingCamera();
 		cameraStage.defaultZoom = 0.9;
 		cameraStage.zoom = 0.9;

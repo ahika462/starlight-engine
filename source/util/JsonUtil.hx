@@ -10,7 +10,11 @@ class JsonUtil {
 	}
 
 	public static function fromFile<T>(file:String):T {
+		#if FEATURE_MODDING
+		return fromString(sys.io.File.getContent(file));
+		#else
 		return fromString(openfl.Assets.getText(file));
+		#end
 	}
 
 	public static function toString<T>(object:T):String {

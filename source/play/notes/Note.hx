@@ -139,7 +139,7 @@ class Note extends FlxSprite {
 
 	public function clipToStrumlineNote(note:StrumlineNote) {
 		var center = note.y + StrumlineNote.STRUM_WIDTH * 0.5;
-		if (sustain && (!player || (canBeHit || (previous.hasBeenHit && !canBeHit)))) {
+		if (sustain && (!player || (hasBeenHit || (previous.hasBeenHit && !canBeHit)))) {
 			if (Preferences.downscroll) {
 				if (y - offset.y * scale.y + height >= center) {
 					var newClipRect = clipRect?.set(0, 0, frameWidth, frameHeight) ?? FlxRect.get(0, 0, frameWidth, frameHeight);

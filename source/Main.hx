@@ -29,10 +29,10 @@ class Main extends Sprite {
 		initialState = editors.character.CharacterEditorState;
 		#end
 
-		var game = new FlxGame(gameWidth, gameHeight, initialState, framerate, framerate, skipSplash, startFullscreen);
+		var game = new FlxGame(gameWidth, gameHeight, InitState, framerate, framerate, skipSplash, startFullscreen);
 		addChild(game);
 
 		fpsCounter = new FPSCounter(10, 3, 0xFFFFFFFF);
-		addChild(fpsCounter);
+		// addChild(fpsCounter);
 	}
 }

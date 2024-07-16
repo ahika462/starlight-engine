@@ -1,5 +1,8 @@
 package system;
 
+import flixel.graphics.FlxGraphic;
+import flixel.system.FlxAssets;
+import flixel.FlxG;
 import flixel.graphics.frames.FlxAtlasFrames;
 import util.StringUtil;
 import openfl.media.Sound;
@@ -70,20 +73,26 @@ class Paths {
 		return null;
 	}
 
-	public static function image(key:String, ?library:String):BitmapData {
+	public static function image(key:String, ?library:String):FlxGraphic {
 		var path = getPath('images/$key.png', IMAGE, library);
+
+		var graphic = FlxG.bitmap.get(path);
+		if (graphic != null) return graphic;
+
+		var bitmapData:BitmapData = null;
 		#if (FEATURE_MODDING)
-		if (sys.FileSystem.exists(path)) {
-			if (openfl.Assets.cache.hasBitmapData(path)) return openfl.Assets.cache.getBitmapData(path);
-			var bitmapData = BitmapData.fromFile(path);
-			openfl.Assets.cache.setBitmapData(path, bitmapData);
-			return bitmapData;
-		}
+		if (sys.FileSystem.exists(path)) bitmapData = BitmapData.fromFile(path);
 		#else
-		if (openfl.Assets.exists(path)) return openfl.Assets.getBitmapData(path);
+		if (openfl.Assets.exists(path)) bitmapData = openfl.Assets.getBitmapData(path, false);
 		#end
 
-		return null;
+		if (bitmapData == null) return null;
+
+		graphic = FlxGraphic.fromBitmapData(bitmapData, path);
+		graphic.destroyOnNoUse = false;
+		graphic.persist = true;
+
+		return FlxG.bitmap.addGraphic(graphic);
 	}
 
 	public static function getSparrowAtlas(key:String, ?library:String):FlxAtlasFrames {
@@ -143,14 +152,9 @@ class Paths {
 	public static function sound(key:String, ?library:String):Sound {
 		var path = getPath('sounds/$key.$SOUND_EXTENSION', SOUND, library);
 		#if (FEATURE_MODDING)
-		if (sys.FileSystem.exists(path)) {
-			if (openfl.Assets.cache.hasSound(path)) return openfl.Assets.cache.getSound(path);
-			var sound = Sound.fromFile(path);
-			openfl.Assets.cache.setSound(path, sound);
-			return sound;
-		}
+		if (sys.FileSystem.exists(path)) Sound.fromFile(path);
 		#else
-		if (openfl.Assets.exists(path)) return openfl.Assets.getSound(path);
+		if (openfl.Assets.exists(path)) return openfl.Assets.getSound(path, false);
 		#end
 
 		return null;
